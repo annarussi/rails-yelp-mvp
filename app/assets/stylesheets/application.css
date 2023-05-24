@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+ margin: 20px;
+ }
+
+ ul {
+  list-style-type: none;
+ }
+
+ .show {
+  background-color:rgb(244, 156, 98);
+  padding: 20px;
+  border-radius: 20px;
+  width: 80%;
+ }
+
+.restaurant-infos {
+  background-color:rgb(249, 187, 143);
+  opacity: 0.8;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.review {
+  background-color:rgb(249, 187, 143);
+  opacity: 0.9;
+  border-radius: 40px !important
+}
