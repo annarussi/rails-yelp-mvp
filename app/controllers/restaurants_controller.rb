@@ -6,7 +6,11 @@ class RestaurantsController < ApplicationController
     @restaurants = Restaurant.all
   end
 
-  def show; end
+  # assigns a new review as @review
+  def show
+    @review = Review.new
+
+  end
 
   def new
     @restaurant = Restaurant.new
@@ -26,6 +30,10 @@ class RestaurantsController < ApplicationController
 
   def restaurant_params
     params.require(:restaurant).permit(:name, :address, :phone_number, :category)
+  end
+
+  def review_params
+    params.require(:review).permit(:content, :rating)
   end
 
   def set_restaurant
