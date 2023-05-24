@@ -23,21 +23,25 @@
  }
 
  .show {
-  background-color:rgb(244, 156, 98);
+  background-color:rgb(255, 189, 145);
   padding: 20px;
   border-radius: 20px;
   width: 80%;
  }
 
 .restaurant-infos {
-  background-color:rgb(249, 187, 143);
+  background-color:rgb(255, 255, 255);
   opacity: 0.8;
   border-radius: 20px;
   padding: 20px;
 }
 
 .review {
-  background-color:rgb(249, 187, 143);
+  background-color:rgb(255, 255, 255);
   opacity: 0.9;
   border-radius: 40px !important
+}
+
+a {
+  text-decoration: none;
 }
